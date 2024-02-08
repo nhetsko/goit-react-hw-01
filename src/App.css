@@ -19,6 +19,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 15px;
+  margin-bottom: 15px;
 
 }
 .profile-content {
@@ -60,3 +61,47 @@
 .profile-item:last-child {
   border-right: none; 
   border-radius: 0px 0px 5px 0px;}
+
+/* friends */
+.friend-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.friend-item-container {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 10px; 
+  width: 80px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friend-name {
+  font-size: 20px;
+}
+
+/* transactions */
+.transaction-title {
+  background-color: black;
+  color: #fff;
+  padding: 5px 60px 5px 60px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+}
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+.transaction-td {
+  text-transform: capitalize;
+  border: 1px solid black;
+}
+.transaction-table {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
