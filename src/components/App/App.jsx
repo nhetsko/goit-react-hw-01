@@ -5,7 +5,7 @@ import friends from '../../friends.json';
 import TransactionHistory from '../Transaction/TransactionHistory.jsx';
 import transactions from '../../transactions.json';
 
-export default function App() {
+export const App = () => {
   return (
     <>
       <Profile
