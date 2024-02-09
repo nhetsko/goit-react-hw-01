@@ -1,0 +1,23 @@
+/* transactions */
+.transactionTitle {
+    background-color: black;
+    color: #fff;
+    padding: 5px 60px 5px 60px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+  }
+  tr:nth-child(even) {
+    background-color: lightgrey;
+  }
+  .transactionTd {
+    text-transform: capitalize;
+    border: 1px solid black;
+  }
+  .transactionTable {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
